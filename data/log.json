@@ -1,41 +1,205 @@
-{ "log": [
-  {"type": "query", "term": "logstash", "provider": "google"},
-  {"type": "page", "url": "http://elastic.co/products/logstash", "domain": "elastic.co" },
-  {"type": "page", "url": "https://www.elastic.co/learn", "domain": "elastic.co" },
-  {"type": "page", "url": "http://elastic.co/products/logstash", "domain": "elastic.co" },
-  {"type": "page", "url": "https://www.elastic.co/guide/en/logstash/current/index.html", "domain": "elastic.co" },
-  {"type": "page", "url": "https://www.elastic.co/downloads", "domain": "elastic.co" },
-  {"type": "page", "url": "https://www.elastic.co/downloads/logstash", "domain": "elastic.co" },
-  {"type": "page", "url": "https://github.com/elastic/logstash", "domain": "github.com"}
-  {"type": "query", "term": "logstash http input", "provider": "google"},
-  {"type": "page", "url": "https://github.com/moshen/logstash-http-input", "domain": "github.com"},
-  {"type": "page", "url": "https://github.com/logstash-plugins/logstash-input-http", "domain": "github.com"},
-  {"type": "application", "name": "iTerm" },
-  {"type": "application", "name": "MacVim", "file": "~/src/log_server/config.yml" },
-  {"type": "application", "name": "iTerm" },
-  {"type": "application", "name": "MacVim", "file": "~/src/log_server/config.yml" },
-  {"type": "application", "name": "MacVim", "file": "~/src/log_server/Gemfile" },
-  {"type": "query", "term": "logstash install plugin", "provider": "google"},
-  {"type": "page", "url": "http://logstash.net/docs/1.4.1/contrib-plugins", "domain": "logstash.net"},
-  {"type": "application", "name": "iTerm" },
-  {"type": "page", "url": "http://www.guardian.com/uk", "domain": "guardian.com"},
-  {"type": "page", "url": "http://www.theguardian.com/film/video/2015/jul/22/spectre-daniel-craig-trailer-james-bond-film-video", "domain": "guardian.com"},
-  {"type": "page", "url": "http://www.theguardian.com/film/2015/jul/22/spectre-trailer-james-bond-what-we-learned", "domain": "guardian.com"},
-  {"type": "application", "name": "iTerm" },
-  {"type": "application", "name": "MacVim", "file": "~/src/log_server/config.yml" },
-  {"type": "application", "name": "iTerm" },
-  {"type": "application", "name": "MacVim", "file": "~/src/log_server/config.yml" },
-  {"type": "application", "name": "iTerm" },
-  {"type": "application", "name": "MacVim", "file": "~/src/literature_review/read.md" },
-  {"type": "application", "name": "Zotero"},
-  {"type": "application", "name": "Highlights", "file": "~/library/2009/Vlachos/ActiveLearningDPMMs.pdf" },
-  {"type": "query", "term": "Vlachos 2009 constrainted dirichlet", "provider": "google_scholar"},
-  {"type": "page", "url": "http://dl.acm.org/citation.cfm?id=1705425", "domain": "acm.org"},
-  {"type": "application", "name": "Zotero"},
-  {"type": "application", "name": "Highlights", "file": "~/library/2009/Vlachos/UnsupervisedConstrainedDPMMs.pdf" },
-  {"type": "application", "name": "MacVim", "file": "~/src/literature_review/read.md" },
-  {"type": "application", "name": "Highlights", "file": "~/library/2009/Vlachos/ActiveLearningDPMMs.pdf" },
-  {"type": "application", "name": "MacVim", "file": "~/src/literature_review/read.md" },
-  {"type": "application", "name": "Highlights", "file": "~/library/2009/Vlachos/ActiveLearningDPMMs.pdf" },
-  {"type": "application", "name": "MacVim", "file": "~/src/literature_review/read.md" }
-]}
+{
+    "log": [
+        {
+            "provider": "google",
+            "term": "logstash",
+            "type": "query"
+        },
+        {
+            "domain": "elastic.co",
+            "title": "\n  \t\n\t  \t\n\t  \t\tLogstash: Collect, Parse, Transform Logs\n\t  \t | Elastic\n  \t\n  \t",
+            "type": "page",
+            "url": "http://elastic.co/products/logstash"
+        },
+        {
+            "domain": "elastic.co",
+            "title": "\n  \t\n\t  \t\n\t  \t\tELK Learning Center \u00b7 Fuel Your Curiosity\n\t  \t | Elastic\n  \t\n  \t",
+            "type": "page",
+            "url": "https://www.elastic.co/learn"
+        },
+        {
+            "domain": "elastic.co",
+            "title": "\n  \t\n\t  \t\n\t  \t\tLogstash: Collect, Parse, Transform Logs\n\t  \t | Elastic\n  \t\n  \t",
+            "type": "page",
+            "url": "http://elastic.co/products/logstash"
+        },
+        {
+            "domain": "elastic.co",
+            "title": "Reference",
+            "type": "page",
+            "url": "https://www.elastic.co/guide/en/logstash/current/index.html"
+        },
+        {
+            "domain": "elastic.co",
+            "title": "\n  \t\n\t  \t\n\t  \t\tELK Stack Download \u00b7 Get Started in Minutes\n\t  \t | Elastic\n  \t\n  \t",
+            "type": "page",
+            "url": "https://www.elastic.co/downloads"
+        },
+        {
+            "domain": "elastic.co",
+            "title": "\n  \t\n\t  \t\n\t  \t\tDownload Logstash Free \u2022 Get Started Now\n\t  \t | Elastic\n  \t\n  \t",
+            "type": "page",
+            "url": "https://www.elastic.co/downloads/logstash"
+        },
+        {
+            "domain": "github.com",
+            "title": "elastic/logstash \u00b7 GitHub",
+            "type": "page",
+            "url": "https://github.com/elastic/logstash"
+        },
+        {
+            "provider": "google",
+            "term": "logstash http input",
+            "type": "query"
+        },
+        {
+            "domain": "github.com",
+            "title": "moshen/logstash-http-input \u00b7 GitHub",
+            "type": "page",
+            "url": "https://github.com/moshen/logstash-http-input"
+        },
+        {
+            "domain": "github.com",
+            "title": "logstash-plugins/logstash-input-http \u00b7 GitHub",
+            "type": "page",
+            "url": "https://github.com/logstash-plugins/logstash-input-http"
+        },
+        {
+            "name": "iTerm",
+            "type": "application"
+        },
+        {
+            "file": "~/src/log_server/config.yml",
+            "name": "MacVim",
+            "type": "application"
+        },
+        {
+            "name": "iTerm",
+            "type": "application"
+        },
+        {
+            "file": "~/src/log_server/config.yml",
+            "name": "MacVim",
+            "type": "application"
+        },
+        {
+            "file": "~/src/log_server/Gemfile",
+            "name": "MacVim",
+            "type": "application"
+        },
+        {
+            "provider": "google",
+            "term": "logstash install plugin",
+            "type": "query"
+        },
+        {
+            "domain": "logstash.net",
+            "title": "logstash - open source log management",
+            "type": "page",
+            "url": "http://logstash.net/docs/1.4.1/contrib-plugins"
+        },
+        {
+            "name": "iTerm",
+            "type": "application"
+        },
+        {
+            "domain": "theguardian.com",
+            "title": "Latest news, sport and comment from the Guardian | The Guardian",
+            "type": "page",
+            "url": "http://www.theguardian.com/uk"
+        },
+        {
+            "domain": "theguardian.com",
+            "title": "Spectre: Daniel Craig in the trailer for the new Bond film | Film | The Guardian",
+            "type": "page",
+            "url": "http://www.theguardian.com/film/video/2015/jul/22/spectre-daniel-craig-trailer-james-bond-film-video"
+        },
+        {
+            "domain": "theguardian.com",
+            "title": "Spectre trailer: 007 things we learned about the new James Bond movie | Film | The Guardian",
+            "type": "page",
+            "url": "http://www.theguardian.com/film/2015/jul/22/spectre-trailer-james-bond-what-we-learned"
+        },
+        {
+            "name": "iTerm",
+            "type": "application"
+        },
+        {
+            "file": "~/src/log_server/config.yml",
+            "name": "MacVim",
+            "type": "application"
+        },
+        {
+            "name": "iTerm",
+            "type": "application"
+        },
+        {
+            "file": "~/src/log_server/config.yml",
+            "name": "MacVim",
+            "type": "application"
+        },
+        {
+            "name": "iTerm",
+            "type": "application"
+        },
+        {
+            "file": "~/src/literature_review/read.md",
+            "name": "MacVim",
+            "type": "application"
+        },
+        {
+            "name": "Zotero",
+            "type": "application"
+        },
+        {
+            "file": "~/library/2009/Vlachos/ActiveLearningDPMMs.pdf",
+            "name": "Highlights",
+            "type": "application"
+        },
+        {
+            "provider": "google_scholar",
+            "term": "Vlachos 2009 constrainted dirichlet",
+            "type": "query"
+        },
+        {
+            "domain": "acm.org",
+            "title": "Unsupervised and constrained Dirichlet process mixture models for verb clustering",
+            "type": "page",
+            "url": "http://dl.acm.org/citation.cfm?id=1705425"
+        },
+        {
+            "name": "Zotero",
+            "type": "application"
+        },
+        {
+            "file": "~/library/2009/Vlachos/UnsupervisedConstrainedDPMMs.pdf",
+            "name": "Highlights",
+            "type": "application"
+        },
+        {
+            "file": "~/src/literature_review/read.md",
+            "name": "MacVim",
+            "type": "application"
+        },
+        {
+            "file": "~/library/2009/Vlachos/ActiveLearningDPMMs.pdf",
+            "name": "Highlights",
+            "type": "application"
+        },
+        {
+            "file": "~/src/literature_review/read.md",
+            "name": "MacVim",
+            "type": "application"
+        },
+        {
+            "file": "~/library/2009/Vlachos/ActiveLearningDPMMs.pdf",
+            "name": "Highlights",
+            "type": "application"
+        },
+        {
+            "file": "~/src/literature_review/read.md",
+            "name": "MacVim",
+            "type": "application"
+        }
+    ]
+}
