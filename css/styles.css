@@ -9,3 +9,29 @@
 .clear {
   clear: left;
 }
+
+.collection-item {
+  display: block !important;
+  cursor: pointer;
+}
+
+
+.collection-item .select {
+  visibility: hidden;
+}
+
+.collection-item.selected .select {
+  visibility: visible;
+}
+
+.collection-item.selected .task {
+  display: none;
+}
+
+.collection-item .select-dropdown {
+  z-index: 99999;
+}
+
+.row.no-margin-bottom {
+  margin-bottom: 0;
+}
